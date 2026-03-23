@@ -3,4 +3,4 @@ numpy>=1.26
 scipy>=1.12
 joblib>=1.3
 psycopg2-binary>=2.9
-azure-storage-blob>=12.20
+ibm-cos-sdk>=2.13

@@ -12,12 +12,12 @@ set -euo pipefail
 
 # ── Config — edit these ──────────────────────────────────────
 RESOURCE_GROUP="goat-tips"
-LOCATION="eastus"
-ACR_NAME="goattipsacr"                    # must be globally unique
-IMAGE_NAME="goat-tips-retrain-job"
+LOCATION="westeurope"
+ACR_NAME="goatipsacr"                    # must be globally unique
+IMAGE_NAME="goattips-retrain"
 IMAGE_TAG="latest"
 ENVIRONMENT="goat-tips-env"
-JOB_NAME="goat-tips-retrain-weekly"
+JOB_NAME="goattips-retrain-weekly"
 
 # Secrets — set via environment or replace inline
 SUPABASE_DB_URL="${SUPABASE_DB_URL:?SUPABASE_DB_URL required}"
